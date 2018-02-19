@@ -3,7 +3,7 @@
 var submitValue = document.getElementById("submit");
 var keyValue = document.getElementById("search");
 var found = document.getElementById('found');
-var notFound = document.getElementById('not-found');
+// var notFound = document.getElementById('not-found');
 
 
 submitValue.onclick = function(){
@@ -17,16 +17,16 @@ submitValue.onclick = function(){
 			flag = 1;
 			found.innerHTML = "data found at row" + r;
 			found.setAttribute("opacity","0");
-			notFound.setAttribute("opacity","1");
+			// notFound.setAttribute("opacity","1");
 		}
 		
 
 	}
 	if (flag == 0 || key == '') 
 	{
-		notFound.innerHTML = "Data Not Available";
+		found.innerHTML = "Data Not Available";
 		found.setAttribute("opacity","1");
-		notFound.setAttribute("opacity","0");
+		// notFound.setAttribute("opacity","0");
 
 	}
 

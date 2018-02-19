@@ -1,6 +1,6 @@
 var tableLength = dataJson.length
 
-var table = '<tr><td>URL</td><td>Issue_count</td><td>Branches</td><td>Contributor</td><td>star</td><td>commit</td><td>watcher</td></tr>';
+var table = '<tr><th>URL</th><th>Issue_count</th><th>Branches</th><th>Contributor</th><th>star</th><th>commit</th><th>watcher</th></tr>';
 
 
 for( var r=0;r<tableLength;r++)
